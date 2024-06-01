@@ -1,0 +1,129 @@
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    animation: gradient-animation 18s ease infinite;
+  }
+
+/* Adjust font */
+.display-5{
+    font-family: 'Secular One';
+}
+
+/* Make navigation appear on top right */
+.top-nav-right{
+  top: 0;
+  right: 0;
+  float: right;
+  margin-right: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+/* Adjust the color of 3 links to 3 different pages */
+#home-link,
+#about-link,
+#project-link {
+  color: black;
+}
+  
+
+
+.poster{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#first-poster{
+  width: 700px;
+  margin-top: 40px;
+
+}
+
+#second-poster{
+  width: 700px;
+  margin-top: 40px;
+}
+
+
+.project-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* Adjust bullet points to be center */
+.bullet-points{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.horizontal-line{
+  
+  width: 100%;
+  color: black;
+}
+
+/* 
+Make bullet point appear in front of each sentence */
+.myself_section ul {
+  list-style-position: inside;
+}
+
+body {
+  width: 100%; /* Set the width to 100% of the viewport width */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+/* Have video appear center of the web page */
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* adjust responsiveness when screen is 640px or below*/
+@media (max-width: 640px){
+  .top-nav-right{
+    top: 0;
+    right: 0;
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+    color: black;
+  }
+
+  #first-poster{
+    width: 500px;
+    margin-top: 40px;
+  }
+
+  #second-poster{
+    width: 500px;
+    margin-top: 40px;
+  }
+
+  .video{
+    width: 500px;
+    display: flex;
+    justify-content: right;
+   
+  }
+
+  .tanis_guitar_pic{
+    width: 500px;
+  }
+
+}
+
+
+
+ 
