@@ -1,8 +1,12 @@
 
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: linear-gradient(300deg, #4f3105, #ff4c68, #ef8172);
     animation: gradient-animation 18s ease infinite;
   }
+
+.pelakii-background {
+  background: linear-gradient(200deg, #0b4f05, #fa40b6, #d4ef72)
+}
 
 /* Adjust font */
 .display-5{
