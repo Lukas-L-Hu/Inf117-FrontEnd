@@ -1,11 +1,145 @@
 
 .gradient-background {
-    background: linear-gradient(300deg, #4f3105, #ff4c68, #ef8172);
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
     animation: gradient-animation 18s ease infinite;
   }
 
-.pelakii-background {
-  background: linear-gradient(200deg, #0b4f05, #fa40b6, #d4ef72)
+
+
+  /* "Project" Page */
+
+
+
+    /* Literal 'Problem Statement' Text */
+
+    .literal-problem-statement-text
+    {
+      text-align: center;
+      color: #ff4c68;
+      margin-top: 50px;
+    }
+
+
+          /* Actual 'Problem Statement' Text  */
+          .actual-problem-statement-text
+          {
+            text-align: left;
+            margin: 20px auto 5px auto;
+            font-size: 1.3rem;
+            max-width: 800px;  
+          }
+
+
+    /*  Literal 'Survey Analysis' Text */
+
+    .literal-survey-analysis-text
+    {
+      text-align: center;
+      color: #ff4c68;
+      margin-top: 65px;
+    }
+
+
+          /* Actual-Survey-Analysis-Text */
+          .actual-survey-analysis-text
+          {
+            text-align: left;
+            margin: 30px auto 5px auto;
+            font-size: 1.3rem;
+            max-width: 800px;  
+          }
+
+
+
+       /*  Literal 'Competitive Analysis' Text */
+
+       .literal-competitive-analysis-text
+       {
+         text-align: center;
+         color: #ff4c68;
+         margin-top: 65px;
+       }
+
+
+              /* Actual-Competitive-Analysis-Text */
+          .actual-competitive-analysis-text
+          {
+            text-align: left;
+            margin: 30px auto 5px auto;
+            font-size: 1.3rem;
+            max-width: 800px;  
+          }
+
+
+     /*  Literal 'Persona' Text */
+
+     .literal-persona-text
+     {
+       text-align: center;
+       color: #ff4c68;
+       margin-top: 65px;
+     }
+
+
+
+
+                    /* Actual-Persona-Text */
+                .actual-persona-text
+                {
+                  text-align: left;
+                  margin: 30px auto 5px auto;
+                  font-size: 1.3rem;
+                  max-width: 800px;  
+                }
+
+
+     /*  Literal 'Storyboard' Text */
+
+     .literal-storybaord-text
+     {
+       text-align: center;
+       color: #ff4c68;
+       margin-top: 65px;
+     }
+
+
+
+                  /* Actual-Storyboard-Text */
+              .actual-storyboard-text
+              {
+                text-align: left;
+                margin: 30px auto 5px auto;
+                font-size: 1.3rem;
+                max-width: 800px;  
+              }
+
+
+    /*  Literal 'Storyboard' Text */
+
+     .literal-conclusion-text
+     {
+       text-align: center;
+       color: #ff4c68;
+       margin-top: 65px;
+     }
+
+           /* Actual-Conclusion-Text */
+           .actual-conclusion-text
+           {
+             text-align: left;
+             margin: 30px auto 5px auto;
+             font-size: 1.3rem;
+             max-width: 800px;  
+           }
+
+
+/* from Google Font */
+
+.playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 /* Adjust font */
@@ -84,6 +218,12 @@ Make bullet point appear in front of each sentence */
 body {
   width: 100%; /* Set the width to 100% of the viewport width */
   height: 100vh; /* Set the height to 100% of the viewport height */
+
+  margin: 0;
+  padding: 0;
+  /* Google Font */
+  /* This make every page to be this font */
+  font-family: "Playfair Display", serif;
 }
 
 /* Have video appear center of the web page */
@@ -126,8 +266,11 @@ body {
     width: 500px;
   }
 
+
+
+
+
+
 }
-
-
 
  
