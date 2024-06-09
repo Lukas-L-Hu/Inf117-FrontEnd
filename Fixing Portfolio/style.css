@@ -278,3 +278,87 @@ body {
 }
 
  
+/* Payment Page Styles */
+
+/* Center the form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style form fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff4c68;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e0445f;
+}
+
+/* Style labels */
+label {
+  font-weight: bold;
+}
+
+/* Adjust responsiveness for smaller screens */
+@media (max-width: 640px) {
+  form {
+      padding: 10px;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+/* CSS for button */
+input[type="submit"] {
+  background-color: #E880AE; /* Set button background color */
+  color: white; /* Set button text color */
+  padding: 10px 20px; /* Adjust padding */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+  background-color: #D36BA1;
+}
+
+.pelaki-logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pelaki-logo img {
+  max-width: 250px; /* Adjust as needed */
+  display: block; /* Ensures the image is treated as a block element */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+}
+
+
