@@ -349,12 +349,12 @@ input[type="submit"]:hover {
   background-color: #D36BA1;
 }
 
-.pelaki-logo {
+.pelakii-logo {
   text-align: center;
   margin-top: 20px;
 }
 
-.pelaki-logo img {
+.pelakii-logo img {
   max-width: 250px; /* Adjust as needed */
   display: block; /* Ensures the image is treated as a block element */
   margin-left: auto; /* Centers the image horizontally */
