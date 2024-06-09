@@ -263,6 +263,16 @@ body {
     font-family: 'Secular One';
 }
 
+.top-nav {
+  display: flex;
+  width: 100%; /* Set to 100% to cover the full width */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px; /* Adjust padding as needed */
+  background-color: #6af984; /* Background color for visibility */
+  box-sizing: border-box;
+}
+
 /* Make navigation appear on top right */
 .top-nav-right{
   top: 0;
@@ -270,7 +280,8 @@ body {
   float: right;
   margin-right: 15px;
   font-size: 20px;
-  color: black;
+  color: pink;
+  /* background-color: pink; */
 }
 
 /* Adjust the color of 3 links to 3 different pages */
