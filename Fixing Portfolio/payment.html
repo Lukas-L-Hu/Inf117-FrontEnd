@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Enter Your Payment Details</h1>
-    <form action="process_payment.php" method="POST">
+    <form id="payment_details"> <!--action="process_payment.php" method="POST"-->
         <label for="card_number">Card Number:</label><br>
         <input type="text" id="card_number" name="card_number" required><br><br>
 
@@ -24,10 +24,21 @@
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
 
-        <label for="address">Address:</label><br>
-        <textarea id="address" name="address" required></textarea><br><br>
+        <label for="street_address">Street Address:</label><br>
+        <textarea id="street_address" name="street_address" required></textarea><br><br>
+
+        <label for="city">City:</label><br>
+        <textarea id="city" name="city" required></textarea><br><br>
+
+        <label for="state">State:</label><br>
+        <textarea id="state" name="state" required></textarea><br><br>
+
+        <label for="zip_code">Zip Code:</label><br>
+        <textarea id="zip_code" name="zip_code" required></textarea><br><br>
 
         <input type="submit" value="Submit Payment">
+
+        <script src="paymentScript.js"></script>
     </form>
 </body>
 </html>
