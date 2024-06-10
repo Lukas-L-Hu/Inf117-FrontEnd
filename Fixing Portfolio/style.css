@@ -5,20 +5,45 @@ body {
   padding: 0;
 }
 
-.top-bar {
+.top-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center the logo */
   align-items: center;
-  padding: 20px 40px; /* Adjust padding as needed */
+  padding: 0px 40px; /* Adjust padding as needed */
+  position: relative; /* To use absolute positioning for nav */
+  height: 80px; /* Set a fixed height */
+  background-color: #fff; /* Ensure the background is white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for aesthetics */
 }
 
-.top-bar nav {
+
+.pelakii-logo {
+  position: absolute; /* Use absolute positioning */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.top-nav-right {
+  margin-left: auto; /* Push navigation to the right */
+  padding-right: 60px; /* Add padding to the right */
+
+}
+
+.top-nav-right nav {
   display: flex;
 }
 
-.top-bar nav a {
-  margin-right: 20px;
-  color: #193408; /* Set link color */
+.top-nav-right nav a {
+  margin-left: 20px; /* Adjust spacing as needed */
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color to black */
+  font-weight: 600; /* Make text slightly bolder */
+  font-size: 16px; /* Set font size */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.top-nav-right nav a:hover {
+  color: #E880AE; /* Change color on hover */
 }
 
 .logo img {
@@ -27,6 +52,7 @@ body {
 
 .main-section {
   display: flex;
+  margin-top: 80px; /* Add margin-top to ensure it starts below the top-nav */
 }
 
 .container {
@@ -74,7 +100,7 @@ body {
 }
 
 .sign-up-button {
-  background-color: #193408; /* Set button background color */
+  background-color:black; /* Set button background color */
   color: white; /* Set button text color to white */
   padding: 15px 30px;
   border: none;
@@ -256,45 +282,12 @@ body {
 
 /* from Google Font */
 
-.playfair-display-uniquifier {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
 
 /* Adjust font */
 .display-5{
     font-family: 'Secular One';
 }
 
-.top-nav {
-  display: flex;
-  width: 100%; /* Set to 100% to cover the full width */
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px; /* Adjust padding as needed */
-  background-color: #6af984; /* Background color for visibility */
-  box-sizing: border-box;
-}
-
-/* Make navigation appear on top right */
-.top-nav-right{
-  top: 0;
-  right: 0;
-  float: right;
-  margin-right: 15px;
-  font-size: 20px;
-  color: pink;
-  /* background-color: pink; */
-}
-
-/* Adjust the color of 3 links to 3 different pages */
-#home-link,
-#about-link,
-#project-link {
-  color: black;
-}
   
 
 
@@ -347,16 +340,7 @@ Make bullet point appear in front of each sentence */
   list-style-position: inside;
 }
 
-body {
-  width: 100%; /* Set the width to 100% of the viewport width */
-  height: 100vh; /* Set the height to 100% of the viewport height */
 
-  margin: 0;
-  padding: 0;
-  /* Google Font */
-  /* This make every page to be this font */
-  font-family: "Playfair Display", serif;
-}
 
 /* Have video appear center of the web page */
 .video{
@@ -489,5 +473,10 @@ input[type="submit"]:hover {
   margin-right: auto; /* Centers the image horizontally */
 }
 
+/* product page */
 
-
+/* payment processed page */
+.btn-custom {
+  background-color: #D36BA1;
+  border-color: #D36BA1;
+}
