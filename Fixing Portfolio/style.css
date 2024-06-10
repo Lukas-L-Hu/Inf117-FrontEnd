@@ -120,15 +120,14 @@ body {
 
 
 
-
-
-  /* "Project" Page */
+/* -----------------------------------------------------------------------------------------*/
+/* Beginning of About Page */
 
 
 
     /* Literal 'Problem Statement' Text */
 
-    .literal-problem-statement-text
+    .literal-What-is-Pelakii-text
     {
       text-align: center;
       color: #ff4c68;
@@ -189,7 +188,7 @@ body {
 
      /*  Literal 'Persona' Text */
 
-     .literal-persona-text
+     .literal-our-values-text
      {
        text-align: center;
        color: #ff4c68;
@@ -200,7 +199,7 @@ body {
 
 
                     /* Actual-Persona-Text */
-                .actual-persona-text
+                .actual-our-values-text
                 {
                   text-align: left;
                   margin: 30px auto 5px auto;
@@ -247,6 +246,12 @@ body {
              font-size: 1.3rem;
              max-width: 800px;  
            }
+
+
+
+/* The End of About Page */
+/* -----------------------------------------------------------------------------------------*/
+
 
 
 /* from Google Font */
