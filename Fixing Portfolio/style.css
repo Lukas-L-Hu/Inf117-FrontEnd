@@ -1,3 +1,5 @@
+/* -----------------------------------------------------------------------------------------*/
+/* Beginning of Landing Page (Index.html) Page */
 body {
   background-color: #FFFFFF; /* Set entire page background to pure white */
   font-family: "Montserrat", sans-serif;
@@ -389,8 +391,9 @@ Make bullet point appear in front of each sentence */
 
 }
 
- 
-/* Payment Page Styles */
+ /* -----------------------------------------------------------------------------------------*/
+/* Beginning of Payment (payment.html) Page */
+
 
 /* Center the form */
 form {
@@ -473,9 +476,10 @@ input[type="submit"]:hover {
   margin-right: auto; /* Centers the image horizontally */
 }
 
-/* product page */
 
-/* payment processed page */
+/* -----------------------------------------------------------------------------------------*/
+/* Beginning of Payment Process (process.html) Page */
+
 .btn-custom {
   background-color: #D36BA1;
   border-color: #D36BA1;
